@@ -29,4 +29,74 @@
     text-align: center;
 }
 
+#blog{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+div{
+    border: 1px lightgray;
+    border-style: solid;
+    border-radius: 3%;
+    width: 300px;
+    height: 290px;
+    display: inline-block;
+    align-content: center;
+    margin-left: 15px;
+    margin-bottom: 150px;
+    background-color: whitesmoke;
+    padding-bottom: 35px;
+}
+
+img{
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#blog h2{
+    font-size: 33px;
+    position: absolute;
+    margin-top: -100px;
+    text-align: center;
+    width: 100%;
+}
+
+h3{
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+#blog p{
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+
+#blog a:hover{
+    color: rgb(181, 70, 191);
+}
+
+[title="Featured Item"]{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+[title="Featured Item"] a{
+    color: rgb(236, 65, 13);
+}
+
 
